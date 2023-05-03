@@ -54,17 +54,15 @@ body {
 }
 
 .header {
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     border-bottom: 1px solid var(--light-grayish-blue);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav {
@@ -211,17 +209,7 @@ body {
 .list-first-sec {
     display: flex;
 }
-
-/* .first-sec-item::before {
-    display: block;
-    height: 112px;
-    content: '';
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--color-cloud);
-    border-radius: 4px;
-} */
-.icon-antena-1 {
+.icon-antena {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -230,19 +218,6 @@ body {
     border-radius: 4px;
     margin-bottom: 8px;
 }
-
-/* .icon-antena::before {
-    background-image: url(../icon/antenna.svg);
-}
-.icon-clock::before {
-    background-image: url(../icon/clock.svg);
-}
-.icon-diagram::before {
-    background-image: url(../icon/diagram.svg);
-}
-.icon-astronaut::before {
-    background-image: url(../icon/astronaut.svg);
-} */
 .first-sec-title {
     margin-bottom: 8px;
 
@@ -323,7 +298,9 @@ body {
 
 .list-team {
     text-align: center;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--color-white);
 }
@@ -361,7 +338,6 @@ body {
     gap: 24px;
 }
 
-.socials-item {}
 
 .socials-link {
     display: flex;
@@ -581,7 +557,8 @@ body {
     display: block;
 }
 
-.work-list-hover:hover .work-list-hover:focus {
+.work-list-hover:hover, 
+.work-list-hover:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);

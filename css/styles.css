@@ -53,6 +53,7 @@ body {
     background-color: var(--color-white);
 }
 
+/* Header */
 .header {
     border-bottom: 1px solid var(--light-grayish-blue);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -63,12 +64,6 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
 }
 
 /* Logo studio */
@@ -92,6 +87,11 @@ body {
 .header-nav-list {
     display: flex;
     align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 
 .menu-link {
@@ -152,6 +152,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+/* Hero BTN */
 
 .hero-btn-studio {
     display: block;
@@ -253,13 +254,6 @@ body {
     align-items: center;
     gap: 24px;
 }
-
-/* .second-sec-item:not(:last-child) {
-    margin-right: 25px;
-} */
-/* .container-second {
-    padding-bottom: 120px;
-} */
 .second-sec {
     margin-bottom: 72px;
 
@@ -337,8 +331,6 @@ body {
     align-items: center;
     gap: 24px;
 }
-
-
 .socials-link {
     display: flex;
     justify-content: center;
